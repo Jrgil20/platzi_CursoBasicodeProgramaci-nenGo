@@ -12,7 +12,6 @@ Este curso te ofrece una inmersión completa en la programación con Go, desde c
 
 Además, se compartirán recomendaciones prácticas ofrecidas por Osmani, fruto de su experiencia en el campo.
 
-
 ## ¿Por qué aprender Go?
 
 La próxima clase profundizará en las ventajas de Go, resaltando su eficiencia y capacidad para desarrollar aplicaciones robustas. Se invita a dejar comentarios sobre tus motivaciones para aprender este lenguaje, fortaleciendo así la comunidad de emprendedores en el mundo de la programación.
