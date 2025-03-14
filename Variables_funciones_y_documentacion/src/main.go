@@ -40,4 +40,26 @@ func main() {
 	fmt.Println("a * b =", a*b)
 	fmt.Println("a / b =", a/b)
 	fmt.Println("a % b =", a%b)
+
+	// Areas
+	radius := 5
+	area := Pi * float64(radius) * float64(radius)
+	fmt.Println("\nÁrea de un círculo con radio", radius, "es", area)
+	// Área de un cuadrado
+	side := 4
+	areaSquare := side * side
+	fmt.Println("Área de un cuadrado con lado", side, "es", areaSquare)
+
+	// Área de un triángulo
+	base := 6
+	height := 3
+	areaTriangle := 0.5 * float64(base) * float64(height)
+	fmt.Println("Área de un triángulo con base", base, "y altura", height, "es", areaTriangle)
+
+	// Área de un trapecio
+	base1 := 8
+	base2 := 5
+	heightTrap := 4
+	areaTrapezoid := 0.5 * float64(base1+base2) * float64(heightTrap)
+	fmt.Println("Área de un trapecio con bases", base1, "y", base2, "y altura", heightTrap, "es", areaTrapezoid)
 }
