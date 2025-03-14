@@ -29,4 +29,15 @@ func main() {
 	for _, data := range mixedData {
 		fmt.Println(data)
 	}
+
+	// Operadores aritméticos
+	a := 10
+	b := 5
+
+	fmt.Println("\nOperadores Aritméticos:")
+	fmt.Println("a + b =", a+b)
+	fmt.Println("a - b =", a-b)
+	fmt.Println("a * b =", a*b)
+	fmt.Println("a / b =", a/b)
+	fmt.Println("a % b =", a%b)
 }
