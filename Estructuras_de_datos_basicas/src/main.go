@@ -38,4 +38,23 @@ func main() {
 	for i, v := range slice {
 		fmt.Printf("Índice: %d, Valor: %d\n", i, v)
 	}
+
+	// Ejemplo de map
+	// Un map es una estructura de datos que almacena una colección de pares clave-valor
+	// Las claves de un map son únicas
+	// Los elementos de un map no están ordenados
+	// Un map se define con la siguiente sintaxis: map := map[tipoClave]tipoValor{clave1: valor1, clave2: valor2, ..., claveN: valorN}
+	mapa := map[string]int{
+		"uno":    1,
+		"dos":    2,
+		"tres":   3,
+		"cuatro": 4,
+		"cinco":  5,
+	}
+	fmt.Println("Mapa:", mapa)
+
+	// Recorrer un map con range
+	for clave, valor := range mapa {
+		fmt.Printf("Clave: %s, Valor: %d\n", clave, valor)
+	}
 }
