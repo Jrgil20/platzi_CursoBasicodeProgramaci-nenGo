@@ -107,4 +107,32 @@ func main() {
 	default:
 		fmt.Println("Día no válido")
 	}
+
+	// Ejemplo de sentencias defer
+	fmt.Println("Sentencias defer:")
+	// la sentencia defer pospone la ejecución de una función hasta que la función que la contiene retorne
+	// la sentencia defer se ejecuta en el orden inverso en que se declaran
+	// declaración de función
+	defer fmt.Println("Mundo")
+	fmt.Println("Hola")
+
+	// Ejemplo de sentencias break y continue
+	fmt.Println("Sentencias break y continue:")
+	// la sentencia break termina el ciclo en el que se encuentra
+	// la sentencia continue termina la iteración actual y continúa con la siguiente
+	// uso de la sentencia break
+	for i := 0; i < 5; i++ {
+		if i == 3 {
+			break
+		}
+		fmt.Println(i)
+	}
+
+	// uso de la sentencia continue
+	for i := 0; i < 5; i++ {
+		if i == 3 {
+			continue
+		}
+		fmt.Println(i)
+	}
 }
