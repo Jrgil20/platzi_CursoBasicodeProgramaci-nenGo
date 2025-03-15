@@ -39,4 +39,45 @@ func main() {
 		fmt.Println(k)
 		k++
 	}
+
+	// Ejemplo de sentencias if y operadores lógicos
+	fmt.Println("Sentencias if y operadores lógicos:")
+
+	// declaración de variables
+	a := 10
+	b := 20
+
+	// uso de la sentencia if
+	if a < b {
+		fmt.Println("a es menor que b")
+	}
+
+	// uso de la sentencia if-else
+	if a > b {
+		fmt.Println("a es mayor que b")
+	} else {
+		fmt.Println("a no es mayor que b")
+	}
+
+	// uso de la sentencia if-else if-else
+	if a == b {
+		fmt.Println("a es igual a b")
+	} else if a < b {
+		fmt.Println("a es menor que b")
+	} else {
+		fmt.Println("a es mayor que b")
+	}
+
+	// uso de operadores lógicos
+	if a < b && a != 0 {
+		fmt.Println("a es menor que b y a no es cero")
+	}
+
+	if a > 0 || b > 0 {
+		fmt.Println("a o b son mayores que cero")
+	}
+
+	if !(a > b) {
+		fmt.Println("No es cierto que a es mayor que b")
+	}
 }
