@@ -33,4 +33,9 @@ func main() {
 	// Agregar un elemento al slice
 	slice = append(slice, 6)
 	fmt.Println("Slice después de append:", slice)
+
+	// Recorrer un slice con range
+	for i, v := range slice {
+		fmt.Printf("Índice: %d, Valor: %d\n", i, v)
+	}
 }
