@@ -80,4 +80,31 @@ func main() {
 	if !(a > b) {
 		fmt.Println("No es cierto que a es mayor que b")
 	}
+
+	// Ejemplo de sentencias switch
+	fmt.Println("Sentencias switch:")
+	// la sentencia switch evalúa una expresión y ejecuta el bloque de código correspondiente al caso que coincida
+	// si no hay coincidencia se ejecuta el bloque de código del caso default
+	// declaración de variable
+	day := 3
+
+	// uso de la sentencia switch
+	switch day {
+	case 1:
+		fmt.Println("Lunes")
+	case 2:
+		fmt.Println("Martes")
+	case 3:
+		fmt.Println("Miércoles")
+	case 4:
+		fmt.Println("Jueves")
+	case 5:
+		fmt.Println("Viernes")
+	case 6:
+		fmt.Println("Sábado")
+	case 7:
+		fmt.Println("Domingo")
+	default:
+		fmt.Println("Día no válido")
+	}
 }
